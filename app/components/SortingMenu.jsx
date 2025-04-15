@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import BackButton from "./Buttons/BackButton";
-import SortButton from "./Buttons/SortButton";
-import { useState } from "react";
+import SortButton from "@/components/Buttons/SortButton";
 import useSorting from "@/utils/useSorting";
 
 export default function SortingMenu({ onBack }) {
