@@ -80,7 +80,7 @@ export default function StartMenu({ onLaunch }) {
         <LaunchButton onClick={onLaunch} label="Launch Challenge Solver" />
         <GithubButton
           onClick={() => {
-            window.location.href = "http://www.google.com/";
+            window.location.href = "https://github.com/NotCure/WASMvsJS";
           }}
           label="Github"
         />

@@ -24,7 +24,7 @@ export default function SortingMenu({ onBack }) {
   };
 
   const handleInputChange = (e) => {
-    setFullText(""); // cancel file preview mode
+    setFullText("");
     setInputNumbers(e.target.value);
   };
 
