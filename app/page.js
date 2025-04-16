@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import StartMenu from "./components/StartMenu";
-import SortingMenu from "./components/SortingMenu";
+import StartMenu from "@/app/components/StartMenu";
+import SortingMenu from "@/app/components/SortingMenu";
 
 export default function Home() {
   const [showStartMenu, setShowStartMenu] = useState(true);

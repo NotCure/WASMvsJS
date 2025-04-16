@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
-import LaunchButton from "./Buttons/LaunchButton";
-import { useRouter } from "next/navigation";
-import GithubButton from "./Buttons/GithubButton";
+import LaunchButton from "@/app/components/Buttons/LaunchButton";
+import GithubButton from "@/app/components/Buttons/GithubButton";
 export default function StartMenu({ onLaunch }) {
   return (
     <section className="flex flex-col items-center lg:p-24 p-8 bg-[#101010]">
